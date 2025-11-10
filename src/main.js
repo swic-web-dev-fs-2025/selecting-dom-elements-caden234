@@ -38,3 +38,7 @@ if (product2) {
     console.warn("Price element not found for product with ID 2.");
   }
 }
+
+// You have this brittle selector: Refactor it to use a data attribute instead.
+// const title = document.querySelector("main .card .card-title");
+// const title = document.querySelector('[data-title-id="1"]');
